@@ -1,0 +1,151 @@
+/* 
+COLOR
+Primary Color: #e0e8ff
+Dark	#3829e0
+
+Secondary Color
+-tint: 	#f5f7ff
+- semi dark: 	#7280a7
+- Dark : 	#1f2f56
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "'Red Hat Display'", sans-serif;
+    font-weight: 500;
+    color: #7280a7;
+    /* background-image: url(images/pattern-background-desktop.svg); */
+}
+
+.container {
+    max-width: 1440px;
+    height: 50rem;
+    margin: 0 auto;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    margin-top: 10vh;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 28.1rem;
+    height: 45rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.heading-primary {
+    text-align: center;
+    margin-top: 2rem;
+    color: #1f2f56;
+    font-size: 700;
+}
+
+.description {
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.annual-plan {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.plan {
+    display: flex;
+    margin: 2rem 1rem 0rem 1rem;
+    background-color: #f5f7ff;
+    padding: 1rem 3.2rem;
+    gap: 3rem;
+    border-radius: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.main-text {
+    color: #1f2f56;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.sub-text {
+    font-size: 1rem;
+}
+
+.change:link,
+.change:visited {
+    /* margin-top: 1rem; */
+    color: #3829e0;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.change:hover,
+.change:active {
+    text-decoration: none;
+    color: #7280a7;
+}
+
+.btn:link,
+.btn:visited {
+    background-color: rgba(56, 41, 224);
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3.2rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem 5rem 0 6rem;
+    transition: all 0.3s;
+    box-shadow: 0 1rem 2rem rgba(56, 41, 224, 0.3);
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #7280a7;
+    box-shadow: 0 0.5rem 1.5rem rgba(56, 41, 224, 0.3);
+}
+
+.cancel:link,
+.cancel:visited {
+    text-decoration: none;
+    display: inline-block;
+    margin: 3rem 10rem 0 10rem;
+    color: #7280a7;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.cancel:hover,
+.cancel:active {
+    text-decoration: none;
+    display: inline-block;
+    margin: 3rem 10rem 0 10rem;
+    color: #1f2f56;
+    font-size: 1rem;
+}
+
+.attribution {
+    float: right;
+    margin-top: 2rem;
+}
